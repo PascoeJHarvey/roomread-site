@@ -1,0 +1,37 @@
+/* Room Read: the app's palette (app/src/main/java/com/thecaller/app/ui/Theme.kt) */
+:root {
+  --paper: #FBF6EA; --paper-sunk: #E9E1CF; --rule: #D8CBB0;
+  --ink: #2B2118; --ink-soft: #6B5B4A;
+  --oxblood: #7A1F2E; --brass: #8F7440; --light-brass: #E9C46A;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #1A1410; --paper-sunk: #241C16; --rule: #4A3C2E;
+          --ink: #F3EADB; --ink-soft: #C7B8A3; --oxblood: #D98A95; --brass: #E9C46A; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.65 Georgia, "Iowan Old Style", "Times New Roman", serif;
+}
+.wrap { max-width: 680px; margin: 0 auto; padding: 0 20px 64px; }
+header.band { background: #7A1F2E; color: #FBF6EA; }
+header.band .wrap { display: flex; align-items: center; gap: 16px; padding-top: 22px; padding-bottom: 22px; }
+header.band img { width: 56px; height: 56px; border-radius: 12px; flex: none; }
+header.band .name { font-family: "Bodoni Moda", Didot, "Bodoni 72", serif; font-weight: 600; font-size: 28px; line-height: 1.1; }
+header.band .sub { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #E9C46A; margin-top: 4px; }
+header.band a { color: inherit; text-decoration: none; }
+h1, h2 { font-family: "Bodoni Moda", Didot, "Bodoni 72", serif; font-weight: 600; color: var(--oxblood); line-height: 1.2; }
+h1 { font-size: 34px; margin: 40px 0 6px; }
+h2 { font-size: 23px; margin: 36px 0 8px; padding-top: 18px; border-top: 1px solid var(--rule); }
+.meta { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; color: var(--ink-soft); margin: 0 0 24px; }
+p, li { margin: 0 0 14px; }
+ul { padding-left: 22px; }
+li::marker { color: var(--brass); }
+strong { color: var(--ink); }
+a { color: var(--oxblood); text-underline-offset: 3px; }
+.lede { font-size: 19px; }
+.card { background: var(--paper-sunk); border-left: 3px solid var(--brass); padding: 14px 18px; margin: 18px 0; }
+footer { border-top: 1px solid var(--rule); margin-top: 48px; padding-top: 16px;
+         font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-soft); }
+@media (max-width: 420px) { body { font-size: 16px; } h1 { font-size: 28px; } header.band .name { font-size: 24px; } }
