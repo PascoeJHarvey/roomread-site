@@ -2,7 +2,7 @@
 
 Effective from the date the app is first published on Google Play. Last revised 2 October 2026.
 
-Room Read (called The Caller in its source code) is a free app made by Pascoe Harvey as a personal project for social and competition dancers. It has no adverts, no in-app purchases, no account and no analytics.
+Room Read is a free app made by Pascoe Harvey as a personal project for social and competition dancers. It has no adverts, no in-app purchases, no account and no analytics.
 
 ## In short
 
