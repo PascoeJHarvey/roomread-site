@@ -1,6 +1,6 @@
 # Room Read privacy policy
 
-Effective from the date the app is first published on Google Play. Last revised 2 October 2026.
+Effective from the date the app is first published on Google Play. Last revised 3 October 2026.
 
 Room Read is a free app made by Pascoe Harvey as a personal project for social and competition dancers. It has no adverts, no in-app purchases, no account and no analytics.
 
@@ -10,7 +10,7 @@ While you have it listening, Room Read uses the phone's microphone to hear the m
 
 ## What the app uses, and why
 
-- **Microphone.** Only while it is listening, which starts when you tap Start and ends when you tap Stop, and continues while the screen is locked. While it listens it shows a notification with a Stop button; on Android 13 and later, if you have turned its notifications off, Android instead lists it among the active apps in the quick settings panel. The sound is used to recognise the recording being played, by comparing short audio fingerprints with the app's library of fingerprints, which is kept on the phone (from Google Play it arrives as a separate download straight after the app installs), and to estimate the dance with a model that also runs on the phone.
+- **Microphone.** Only while it is listening, which starts when you tap Start and ends when you tap Stop, and continues while the screen is locked. While it listens it shows a notification with a Stop button; on Android 13 and later, if you have turned its notifications off, Android instead lists it among the active apps in the quick settings panel. The sound is used to recognise the recording being played, by comparing short audio fingerprints with the app's library of fingerprints, which is kept on the phone (from Google Play it comes with the app), and to estimate the dance with a model that also runs on the phone.
 - **Notifications.** To show that notification. Android requires one of any app listening in the background, but from Android 13 you can refuse it and the app still listens.
 - **Audio output.** To play the recorded dance names through whatever the phone is playing through, normally your Bluetooth earpiece.
 
