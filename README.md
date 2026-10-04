@@ -5,6 +5,7 @@ https://apps.pascoeharvey.com.
 
 - `roomread/`: Room Read, the dance caller for Android. This is the "Website" on its Google Play listing.
 - `roomread/privacy/`: its privacy policy. **This address is the one given to Google Play, so don't move it.**
+- `roomread/test/`: "Test Room Read", the guide for joining the closed test on Google Play. Send testers this address.
 
 ## The privacy policy
 
@@ -17,6 +18,16 @@ Change the app's copy first, then:
     git add -A && git commit -m "Privacy policy: the app's copy as of <date>" && git push
 
 `build.py` turns `privacy.md` into `roomread/privacy/index.html`.
+
+## The tester guide
+
+`roomread/test/index.html` is written by hand (there is no build step for it)
+and uses the shared `style.css`, whose last block styles its numbered steps and
+button links. Testers read it on their phones, so keep each step to about a
+screen. It links to the testers' Google Group, the Play test invitation and the
+Play listing. A comment marked `VIDEO PLACEHOLDER` shows where the YouTube
+video goes, as a privacy-enhanced embed from `youtube-nocookie.com`, once it
+exists.
 
 ## Hosting
 
