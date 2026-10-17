@@ -64,7 +64,7 @@ PAGE = """<!doctype html>
 <h1>Privacy policy</h1>
 <p class="meta">{meta}</p>
 {body}
-<footer>Room Read is a personal project by Pascoe Harvey. Contact: <a href="mailto:{email}">{email}</a></footer>
+<footer>Room Read is a personal project by Pascoe Harvey. Contact: <a href="mailto:{email}">{email}</a><br>Want to try it before its release? <a href="/roomread/test/">Join the test</a>.</footer>
 </main>
 </body>
 </html>
